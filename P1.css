@@ -1,0 +1,103 @@
+/* CSS Reset */
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('BACKGROUND.jpg');
+    background-size: 1400px 700px;
+    font-family: 'Times New Roman';
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+}
+.logo{
+    position: absolute;
+    left: 14px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+.logo img{
+    height: 40px;
+    width: 90px;
+}
+.menu{
+    width: 35%;
+    margin: 20px auto;
+    /* border: 2px solid yellow; */
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    list-style: none;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover{
+    color: grey;
+}
+.social{
+    position: absolute;
+    right: 14px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid green; */
+}
+.sbtn{
+    background-color: rgba(7, 59, 138, 0.363);
+    color: white;
+    /* border: 1px solid blue; */
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 4px 10px;
+    cursor: pointer;  
+}
+.sbtn:hover{
+    background-color: rgba(7, 59, 138, 0.534);
+}
+.container{
+    /* border: 2px solid blue; */
+    margin: 100px 100px;
+    width: 45%;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+h1{
+    margin: 15px 0px;
+    text-align: center;
+}
+.form input{
+    text-align: center;
+    display: block;
+    width: 245px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 15px;
+}
+.form select{
+    text-align: center;
+    display: block;
+    width: 268px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 15px;
+}
+.fbtn{
+    display: block;
+    width: 23%;
+    margin: 23px auto auto auto;
+    font-size: 15px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.808);
+    font-weight: bold;
+}
+.fbtn:hover{
+    background-color: rgba(255, 255, 255, 0.603);
+}
